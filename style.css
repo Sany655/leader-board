@@ -16,7 +16,7 @@ main{
 }
 .container{
     background: #ffffff;
-    width: 870px;
+    width: 55%;
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ header>.contents{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 915px;
+    width: 60%;
 }
 
 header>.contents>nav{
@@ -190,6 +190,8 @@ header>.contents>img{
     /* common */
     .container{
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     /* player */
@@ -207,7 +209,7 @@ header>.contents>img{
     /* header */
     header>.contents {
         width: 100%;
-        font-size: 8px;
+        font-size: 13px;
     }
 }
 
@@ -215,6 +217,8 @@ header>.contents>img{
     /* common */
     .container{
         width: 100%;
+        margin: 0;
+        padding: 15px;
     }
 
     /* player */
@@ -223,9 +227,12 @@ header>.contents>img{
     }
 
     /* header */
+    header{
+        padding: 15px 0px;
+    }
     header>.contents {
-        width: 100%;
         font-size: 13px;
+        width: 100%;
     }
 
 }
